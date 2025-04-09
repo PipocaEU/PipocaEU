@@ -1,11 +1,11 @@
-# 📘 Guia do Contribuidor
+# 📘 Guia para Contribuições
 
-Este repositório contém o **Guia do Contribuidor (CONTRIBUTING.md)**, que explica como você pode colaborar com nossos projetos open source.
+Este repositório contém o **Guia de Contribuições (CONTRIBUTING.md)**, que explica como você pode colaborar com nosso projeto.
 
 ## 📄 Leia o guia
 
 Confira as instruções completas de como contribuir acessando o arquivo:
 
-👉 [Guia do Contribuidor](./CONTRIBUTING.md)
+👉 [Guia de Contribuições](./CONTRIBUTING.md)
 
 Sua colaboração é muito bem-vinda! 💙
