@@ -6,6 +6,6 @@ Este repositório contém o **Guia do Contribuidor (CONTRIBUTING.md)**, que expl
 
 Confira as instruções completas de como contribuir acessando o arquivo:
 
-👉 [CONTRIBUTING.md](.HOME/CONTRIBUTING.md)
+👉 [Guia do Contribuidor](./HOME/CONTRIBUTING.md)
 
 Sua colaboração é muito bem-vinda! 💙
