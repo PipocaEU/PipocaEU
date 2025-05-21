@@ -92,7 +92,7 @@ Exemplo em HTML:
 
 HTML padrão — cada id deve ser único por página.
 
-Usado para navegação (<a href="#hero">), CSS targeting, ou JavaScript (DOM API).
+Usado para navegação ```(<a href="#hero">)```, CSS targeting, ou JavaScript (DOM API).
 
 Pode colidir com estilos ou comportamentos se usado fora do padrão.
 
