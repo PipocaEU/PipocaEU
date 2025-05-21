@@ -40,7 +40,8 @@ Agrupe classes do Tailwind por função (layout > espaçamento > cores > tipogra
 Comente trechos de código com propósitos específicos, especialmente se forem complexos ou dinâmicos.
 ```
 
-🧪 Testes
+## 🧪 Testes 
+
 Para facilitar a criação de testes automatizados, siga estas recomendações:
 
 
