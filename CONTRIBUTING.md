@@ -47,18 +47,16 @@ Para facilitar a criação de testes automatizados, siga estas recomendações:
 
 Para facilitar testes de interface e automação, adote os seguintes padrões:
 Adicione identificadores únicos nos elementos-chave da UI:
-Use id para elementos exclusivos.
-Use data-testid para rastreamento de testes automatizados.
 
-Padrões sugeridos para data-testid:
+Use id para elementos e rastreamento de testes automatizados.
 
-Tipo de Elemento	Prefixo sugerido	Exemplo
+Padrões sugeridos para **id**:
 
 ```
-Botão	btn-	data-testid="btn-login"
-Navegação	nav-	data-testid="nav-home"
-Input	input-	data-testid="input-email"
-Seções específicas	section-	data-testid="section-hero"
+Botão	btn-	id="btn-login"
+Navegação	nav-	id="nav-home"
+Input	input-	id="input-email"
+Seções específicas	section-	 id="section-hero"
 
 ```
 Boas práticas:
@@ -67,9 +65,9 @@ Boas práticas:
 ```
 Use nomes descritivos em kebab-case.
 
-Não use nomes genéricos (data-testid="button1" ❌).
+Não use nomes genéricos (id="button1" ❌).
 
-Evite repetir o mesmo data-testid em múltiplos elementos.
+Não repita o mesmo id em múltiplos elementos.
 
 ```
 
@@ -80,33 +78,19 @@ Garanta que elementos interativos ou visualmente relevantes (botões, links, inp
 Exemplo em HTML:
 ```
 <section id="hero" data-testid="section-hero">
-  <h2 data-testid="hero-title">Transforme sua carreira</h2>
-  <button data-testid="btn-cadastro">Cadastre-se grátis!</button>
-  <input type="email" data-testid="input-email" placeholder="Digite seu e-mail" />
+  <h2 id="hero-title">Transforme sua carreira</h2>
+  <button id="btn-cadastro">Cadastre-se grátis!</button>
+  <input type="email" id="input-email" placeholder="Digite seu e-mail" />
 </section>
 ```
 
-📌 Diferença entre id e data-testid:
+📌**id:**
 
-
-**id:**
-
-HTML padrão — cada id deve ser único por página.
-
-Usado para navegação ```(<a href="#hero">)```, CSS targeting, ou JavaScript (DOM API).
-
-Pode colidir com estilos ou comportamentos se usado fora do padrão.
-
-Não é ideal para testes automatizados em larga escala, pois pode mudar de propósito ou já estar sendo usado para outro fim.
-
-
-**data-testid:**
+HTML padrão — cada id deve ser única.
 
 Criado especificamente para testes.
 
 Não interfere no estilo, layout ou comportamento da aplicação.
-
-Mais seguro de usar em testes porque não tem efeito colateral e é totalmente desvinculado da lógica da aplicação.
 
 Permite maior flexibilidade e clareza nos testes automatizados.
 
